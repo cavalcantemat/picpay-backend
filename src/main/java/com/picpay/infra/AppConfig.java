@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "com.picpay.repositories")
-@EntityScan(basePackages = "domain.user")
+@EntityScan(basePackages = "com.picpay")
+
 public class AppConfig {
     @Bean
     public RestTemplate restTemplate() {
