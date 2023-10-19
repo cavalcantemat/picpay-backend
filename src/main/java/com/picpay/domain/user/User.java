@@ -1,4 +1,4 @@
-package domain.user;
+package com.picpay.domain.user;
 
 import com.picpay.dtos.UserDTO;
 import jakarta.persistence.*;

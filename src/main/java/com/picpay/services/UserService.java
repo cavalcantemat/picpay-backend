@@ -2,8 +2,8 @@ package com.picpay.services;
 
 import com.picpay.dtos.UserDTO;
 import com.picpay.repositories.UserRepository;
-import domain.user.User;
-import domain.user.UserType;
+import com.picpay.domain.user.User;
+import com.picpay.domain.user.UserType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
